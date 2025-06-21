@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhaz Kabbo | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header class="relative bg-gradient-to-r from-indigo-800 via-indigo-700 to-indigo-900 text-white py-20 px-6 shadow-md overflow-hidden">
+      <div class="max-w-5xl mx-auto text-center relative z-10">
+        <h1 class="text-5xl font-bold leading-tight">Minhaz Kabbo</h1>
+        <p class="mt-4 text-lg tracking-wide">Creative Brand Designer & Digital Marketer</p>
+        <div class="mt-6">
+          <a href="#portfolio" class="inline-block bg-white text-indigo-800 font-semibold px-6 py-2 rounded-full shadow hover:shadow-lg transition">View Portfolio</a>
+        </div>
+      </div>
+      <div class="absolute bottom-0 left-0 w-full z-0">
+        <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#f9fafb" fill-opacity="1" d="M0,80L80,74.7C160,69,320,59,480,58.7C640,59,800,69,960,80C1120,91,1280,101,1360,106.7L1440,112V120H1360C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120H0Z"></path>
+        </svg>
+      </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-10">
+      <section class="mb-12 text-center">
+        <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+        <p>
+          I’m a passionate designer and digital marketer from Sirajganj, Bangladesh. I help brands grow through strategic visuals and social media management.
+        </p>
+      </section>
+
+      <section class="mb-12" id="portfolio">
+        <h2 class="text-2xl font-semibold mb-6 text-center">My Portfolio Platforms</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <a href="https://www.freelancer.com/u/imrminhajul" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///8psv8Arf/m9v8esP8Qrv/7/v8Aq//x+v/t+P/1+/+T1P7y+v/b8f8xtf+Iz//j9P+95P/I6f9Duf92yf+s3f/V7v9nxP+k2v+14f9QvP98yv+K0f5dwv+a1/634f/O6//a7v+s3/7E5/8TfN8CAAAJPklEQVR4nO2d6ZaiOhRGMSQqogyigihKl+//jg2cUCVDIAkzK/vPXV23pfhMcnKmpDVNoVAoFAqFQqFQKBQKhUKhUCgUCoViUWwHfbo+FI5z0jnfwQhfRv/KDl6c/dfdoQHY7ZD1PHO/zGuH/fuhX4G6hTE80sabfsGYeLYrNChbvMHEusQ9Cjxtkmc+4OlWr/IQ8QNHeGGZ6deciHzyTuw2ztm4ETf7g0P6UkeI94ylzMaRTiS8i677HgS6+cSEqXTtQWIyNS3/LT8CZv5KmGz8T1fj+soV4Qh+EHVcipjg6HXrZCmMwuOsx63Lw55/Q4ZelccLq8NoY7vHLi+UYRa+5cRYyW8gj+85iU7Zz85IUh3ZRFens7oUozyPMInkNhC/sOiwBw+5iM/TZGqGppxdqaW6a6UbCP+eSjmGpedgO/v51hOSmExN63Hvy7IDRp29w9iyheaIURWC4Fs68SvEBEWvU/++5LP+FTDyAu4NJN3nq0+AFf3i2jKSqek9Pj37VxSd+SUT7LtcvzOuf2neLSOdmv71NIi6jAf7DdIl2b6BvBkPINfsf++b5ZFdYleGGbwcp/E7Tpak2byBXJk7Aoa17LL+Ak64vPtwplp4IIIzWC+yi+7snddkb3k4hL9SG2UkUzMKOnkY/Bjuz+v5ePhR6CW/FyFSEdywgdhNhoTkW0Zl8FBofwYITtvYbg/Ho3M7u9eXaV9SwVkUS1LJBFl2jTHwm80IgkG67QqDhy9X8Tio9KrdPv79JMOJY/cdmHYyxLi8gRzK+3wFC2xIgPLJgD2zj6kZhP7Dts3g6sax4+jG/tCT5n3B3dA9gn4H+ZfifLzAX022jDREv7z7cTZT4wG/jSSvQLBleWEYRRf7+brez/Ht5Bj7PiQfHN1xnPjmuj9BYD5t+3Lxo8jzrGw5g/YdbBl64u8Gtz79lcr6wLnk7PtOpo9lhZH/SDRf3U98cvrckbYphn66xZ/P/Qd+1usvyGgxAV+qCYG5tsNWmM5uMwjun/NJPx4P22ETjt3YthoBtmYqmmw8L/T9x+NpBnf3/O+fo+vHGWmWk8iQDJrTyZ2I9jKVsXtOFrTelw2T4SAWmnEDGYrTnwHdeGF0uSST+5rNbmM8zXumH9aNTEExeMfFJY2tTHRiu4MfVziaFsAZQh9EDK2B7e/0RtaACkUCbG5gFfKYairVHlKhdutdIuSzY/4cGr4OqlCL+8qs5+8LAZGAnSZDrsOUT7+jCPmls8D3hgaPcO9ySdl6aO5FZKsd1ND0L5GcRJ+Y56MGpSHPIAiNhcohe+NHhjWlfUvE2RD+iDyO/IyhsDmZIiAQxkPoMygeRWFfErPc0UusEjFWvsnvoxz7TJ90FCvPe6P54V3LsQkoexBfHSJnFFPal0RwuY9iH4JxHwfBSl4VmG+CXTLkPZ5CbW91koiyd60tNzYpjEdUqBl1VT5eqMstXLUeN3XvdBhF8smeIPoAb1SBXSJiySEc05QC0hHx7ib1DWFzbIVaLCeRutzCO86oppQiErx+KcxcboHcRa5wpBJogfuu/cUqAqGfUjzHjCbJF7Pr7myFWU1MooULTyFQ1LPc/Lpe4kOI/WkUaqagRJz1KbzFVzB+TaRQs4XmG8lMfqXdgOeT96kUaheR8YBs2Y+EEUYDNjq1ShRI6cJAiOtLZumU1Ub+zRuipkBmHx3bKy3AHS5CoWIrVVG+TKmQ1/hTl5vRo9ny2clMKWBwSYRsoFxLOj13MR06R7hIwx+5Ez6kr/YgaThGBuw9u8u2Eav7WYKutJbBqa2Q6LhPCSeWl/Kv5dUhanIkwpHN9KYU+DT6b7RQwV+0L346mFgc0BgSQdHhJlkRmNyUUlz2+9P9TDZbjif0Sgs0dKJDe5d0UWdqZb+8GBIJrCPp/rhJvdIijBoxuNzNtqgBmtyZB7VeJ4aoSSLwpZ8fuFVIjLoCKkwyidwFZS6mlFKViLJChfwQbtAE5ymaKO/qNGqSCnypwokVldmWdj0o/AkW7QvMwSstUGwppj5lhyEcp1VIiIJEyHJvO3RwkFmZUsD4i4jpXmbKV1SH77qUQf8bwuz0T+Wgt5DCmZlSIC+g0kJFp9tJrGHPhcpCi7zgcgsX7b8Zv77NSVYjpi63ZO6CKpyfKaWkXdMwwU6dWuHm5ZUWuBMELaGSuQvKWF2XMlzB5b51bLvt9+qHfgEz37HTz5unKf3i3E0gnp1XWqHj2b4xuy7lYN6DwAmaoFVIDFZ2incI578Mu/W+43D+AgWbGUoC/RmdFm5AesefrE9IlHJeg1vgXH3uKpIH3pcjUK69nyxligK6cO87mUVVVADRIHhxAkU7u8mcijGt0B50kcbwZQk06B1PAh4qWtYUvRFCR7GhDF4UOPtwooiJN4j2UgRco0gWJjAL8RFt8eUJNJY2gto+KzrBYSeermk02+QhC3p4JC8+PFrW4uJG8O84M47hz82xFJq4kVSG39CJ3u7YmHpD82jvEuNLD5XIbkZd4gh+p4OxB12izGunFjmCWvBdDqZZJaN+FJcpsLjqcAhpl9qC6UIFakUteeLlVBU4kx5SYcodpXngXgk08Lz6nvi5lpXkcVHpFClaqsCazS/3yt67VQg81DSzEbrpfV2/s9gpyujgzzuAftukZtZ7KET9UcP8PiTab4vn2BHECyOfj/JYiixdIPM8bH5RSRJo5DHHMjmxm/fhAoFtNOdOCw4qu+EfFnRYHOZykkKShl4ojEe45394mvqCsTfLlkMxnObDXuHyJbacP5jNaSZ5WloSly+wcRmuYQQb62l4DQIbzyNac2445Ia9DLG1fDOaEjIFjny73FAwK/d41j2xAtwZy3Ala1Bj/gteq/DWgPpluIxmQy72tU7pigTW74Z5Wn8V1B11WpXAumO/OFqTwJpluC6BNctwUe2iHFSuHlibwMoyJAvpSedGLwtcVi8eB6VluD6BpbPbKxRYrIyuUWDhX+5dXi8eB9+3Yq1S4PcyXKfAr1OVZJ0CNbLyEfxrllnrCP626y21Va0d6pSi+d6G0BF6VfB6R5DeHrhigbAM53j3UW+ku+Fye/E4SC8um/Ae/BG4oZUL1AKCP1O/w7D4aMm9eBwcNisfQe22ZiuqUCgUCoVCoVAoFAqFQqFQKBQKhUKhkOY/ovd3B8dFicwAAAAASUVORK5CYII=" alt="Freelancer Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">Freelancer</div>
+          </a>
+          <a href="https://www.shutterstock.com/g/iminhaz" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8nOcthJiksmqcMIiusRQ0gjCYsWRBOwMC9fo_wMqozxdQ2KPLcQ9qxr3Y2VLrYgbUdY&usqp=CAU" alt="Shutterstock Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">Shutterstock</div>
+          </a>
+          <a href="https://stock.adobe.com/contributor/212744062/Minhaz%20Kabbo" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="https://pbs.twimg.com/profile_images/1272876635759325184/Fmi9iGDi_400x400.png" alt="Adobe Stock Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">Adobe Stock</div>
+          </a>
+          <a href="https://pngtree.com/minhazkabbo_101203512" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="https://oldshen.com/wp-content/uploads/2022/04/cover-2.jpg" alt="PNG Tree Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">PNG Tree</div>
+          </a>
+          <a href="https://www.upwork.com/freelancers/~01f11720f7bbc9906b" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="https://cdn.worldvectorlogo.com/logos/upwork-1.svg" alt="Upwork Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">Upwork</div>
+          </a>
+          <a href="https://www.behance.net/minhazkabbo" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAnclPLEQ9CShH1U1Qz6d-7Av0MJPfm3Eyzw&s" alt="Behance Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">Behance</div>
+          </a>
+          <a href="https://dribbble.com/minhazkabbo" target="_blank" class="block shadow hover:shadow-lg transition rounded overflow-hidden">
+            <img src="https://www.notion.so/image/attachment:e78c6aa3-0725-4f61-8660-c84aca8f0c2f:dribbble-logo.png?table=block&id=1c02a971-edb7-80ed-a75a-e79d0cb2629d&cache=v2" alt="Dribbble Logo" class="w-full h-40 object-contain bg-white p-4" />
+            <div class="bg-white px-4 py-2 font-medium text-center">Dribbble</div>
+          </a>
+        </div>
+      </section>
+
+      <section class="text-center">
+        <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+        <p>Email: <a href="mailto:minhazkabbo@gmail.com" class="text-blue-600 hover:underline">minhazkabbo@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+      &copy; 2025 Minhaz Kabbo. All rights reserved.
+    </footer>
+  </body>
+</html>
